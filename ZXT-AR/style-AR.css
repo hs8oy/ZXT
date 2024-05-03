@@ -1,0 +1,509 @@
+/* ===== FONT ARBIC ===== */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    
+}
+
+body {
+    background: url(imgs/logo/page.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+
+}
+
+/* ===== FIRST HEADER ===== */
+.logo img {
+    width: 80px;
+}
+
+header {
+    width: 100%;
+    background: #2e2e2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-radius: 0 0 10px 20px;
+    margin: 0 auto;
+    position: fixed;
+}
+
+nav .logo {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li .active {
+    text-shadow: 1px 3px 3px black;
+    transform: scale(1.1);
+    background: rgba(204, 0, 255, 0.356);
+    border-radius: 12px;
+
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    margin: 0 5px;
+    padding: 8px 17px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    text-shadow: 1px 3px 3px black;
+    transform: scale(1.1);
+    background: rgb(204, 0, 255);
+    border-radius: 12px;
+}
+
+.arbic {
+    font-weight: 700;
+}
+
+
+
+.hamburger {
+    display: none;
+    height: fit-content;
+    cursor: pointer;
+    padding: 3px 8px;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 2px;
+    margin: 6px 0;
+    background: #fff;
+}
+
+/* ===== END HEADER ===== */
+.body-1 {
+    width: 100%;
+}
+
+.title-body {
+    padding-top: 400px;
+    padding-right: 100px;
+    letter-spacing: 3px;
+}
+
+.title-body h1 {
+    color: #fff;
+    text-shadow: 1px 2px 3px black;
+    font-size: 65px;
+    margin-bottom: 20px;
+
+}
+
+.title-body h1 span {
+    color: rebeccapurple;
+}
+
+.btn-body {
+    color: #fff;
+    background: #2e2e2e;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    transition: 0.4s ease;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.btn-body:hover {
+    background: rebeccapurple;
+}
+
+.cards {
+    background: #fff;
+    margin-top: 150px;
+    font-family: "Poppins", sans-serif;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 4px 3px 5px rebeccapurple;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-bottom: 100px;
+    padding: 50px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 40%);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+    transition: 0.9s;
+
+}
+
+.card:hover {
+    box-shadow: 0px 1px 30px rebeccapurple;
+
+}
+
+.icon {
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.img1 {
+    width: 150px;
+}
+
+.img2 {
+    width: 250px;
+}
+
+.img3 {
+    width: 250px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #cc00ff;
+    font-size: 24px;
+    margin: 10px;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+
+.info p {
+    font-weight: bold;
+}
+
+/*  */
+
+.title2 {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 3px 5px rebeccapurple;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.st {
+    background: #000016;
+    color: #fff;
+    padding-top: 300px;
+    padding-bottom: 100px;
+
+    font-family: "Poppins", sans-serif;
+
+}
+
+.st .container {
+    margin-top: 60px;
+    display: flex;
+    overflow-x: auto;
+    border-radius: 12px;
+    overflow-y: hidden;
+}
+
+.st-card {
+    background: #fff;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.5s ease;
+
+}
+
+.st-card:hover {
+    box-shadow: 0px 1px 30px rebeccapurple;
+}
+
+.st-img {
+    width: 300px;
+}
+
+.st-name {
+    font-size: 24px;
+    color: black;
+    margin: 10px 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.st-title {
+    color: black;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Order {
+    background: #2e2e2e;
+    color: #fff;
+    border-radius: 6px;
+    padding: 3px 5px;
+    margin: 30px 40px;
+    cursor: pointer;
+    transition: 0.4s ease;
+
+}
+
+.Order:hover {
+    background: rebeccapurple;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rebeccapurple;
+    border-radius: 12px;
+}
+
+.st-titleu {
+    color: black;
+    text-shadow: 1px 2px 5px red;
+    font-weight: 900;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+
+}
+
+.information{
+    background: #fff;
+    color: rgb(0, 0, 0);
+    padding: 190px 0;
+}
+
+.information .title{
+    padding-top:100px;
+    padding-bottom:10px ;
+    margin-bottom: 20px;
+}
+.information .di{
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.information div img{
+    width: 300px;
+    margin: 2px 20px;
+}
+.information .bt{
+    margin: 20px 0;
+    
+}
+.information .bt a{
+    color: #fff;
+    padding: 10px 20px;
+    border:2px solid #cc00ff;
+    margin: 0 100px;
+    background: #2e2e2e;
+    transition: 0.5s ease;
+}
+.information .bt a:hover{
+    background: #cc00ff;
+    text-shadow: 2px 1px 4px black;
+    
+}
+
+
+
+footer {
+    background: #2e2e2e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+footer h1 {
+    font-size: 17px;
+}
+
+footer div a {
+    color: #fff;
+    padding-left: 15px;
+    transition: 0.6s;
+
+}
+
+footer div a:hover {
+    color: #cc00ff;
+    transform: scale(1.1);
+}
+
+
+@media only screen and (max-width:880px) {
+    .title-body h1 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    header {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    nav {
+        position: absolute;
+        right: -500px;
+        top: 0;
+        z-index: 999;
+        width: 330px;
+        height: 85vh;
+        background: #2e2e2e;
+        transition: 0.3s ease;
+        box-shadow: 2px 0 2px 0 #000000;
+    }
+
+    #nav-check:checked~nav {
+        right:  0;
+    }
+
+    nav .logo {
+        display: block;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    nav ul li a {
+        margin-bottom: 15px;
+        padding: 10px 15px;
+    }
+
+    nav ul {
+        display: block;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .title-body h1 {
+        font-size: 50px;
+    }
+
+    .img1 {
+        width: 150px;
+    }
+
+    .img2 {
+        width: 200px;
+        padding: auto 20px;
+    }
+
+    .img3 {
+        width: 200px;
+    }
+
+}
+
+@media only screen and (max-width:700px) {
+
+    .information .di{
+        margin: 20px 0;
+        display: block;
+        text-align: center;
+    }
+
+     .information .di img{
+        width: 200px;
+     }
+     .information .di p{
+        margin: 10px 20px;
+     }
+    .information .bt{
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:620px) {
+    .title-body {
+        padding-right: 50px;
+    }
+
+    .title-body h1 {
+        padding-top: 0px;
+        font-size: 50px;
+    }
+
+    .btn-body {
+        font-size: 16px;
+    }
+
+    .information .di img{
+        width: 200px;
+     }
+
+
+}
+
+@media only screen and (max-width:400px) {
+    .title-body h1 {
+        padding-top: 0px;
+        font-size: 50px;
+    }
+
+    .btn-body {
+        font-size: 16px;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    footer h1 {
+        font-size: 17px;
+        padding-bottom: 15px;
+    }
+}
