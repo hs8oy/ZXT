@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ===== FONT ARBIC ===== */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: black;
+}
+
+
+
+/* ===== FIRST HEADER ===== */
+.logo img {
+    width: 80px;
+}
+
+header {
+    width: 100%;
+    background: #2e2e2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-radius: 0 0 10px 20px;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 999;
+}
+
+nav .logo {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li .active {
+    text-shadow: 1px 3px 3px black;
+    transform: scale(1.1);
+    background: rgba(204, 0, 255, 0.356);
+    border-radius: 12px;
+
+}
+
+nav ul li a {
+    font-size: 27px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    display: block;
+    margin: 0 5px;
+    padding: 8px 10px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    text-shadow: 1px 3px 3px black;
+    transform: scale(1.1);
+    background: rgb(204, 0, 255);
+    border-radius: 12px;
+}
+
+
+
+.hamburger {
+    display: none;
+    height: fit-content;
+    cursor: pointer;
+    padding: 3px 8px;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 2px;
+    margin: 6px 0;
+    background: #fff;
+}
+
+/* ===== END HEADER ===== */
+
+/*  */
+section{
+    padding: 100px;
+    border: 3px solid black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+}
+section .a1{
+    text-align: center;
+    margin: 25px 0;
+}
+
+section div img {
+    width: 300px;
+}
+
+section p{
+    margin: 0 20px;
+}
+
+.a2{
+    text-align: left;
+    margin: 10px 50px ;
+}
+.a3{
+    color: black;
+    background: #fff;
+    margin: 20px;
+    padding: 5px 10px;
+    display: block;
+    text-align: center;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rebeccapurple;
+    border-radius: 12px;
+}
+
+
+
+footer {
+    font-family: "Poppins", sans-serif;
+    background: #2e2e2e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+footer h1 {
+    font-size: 17px;
+}
+
+footer div a {
+    color: #fff;
+    padding-left: 15px;
+    transition: 0.6s;
+
+}
+
+footer div a:hover {
+    color: #cc00ff;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width:990px) {
+
+    section{
+        display: block;
+        align-items: center;
+    
+    }
+}
+
+
+
+@media only screen and (max-width:850px) {
+    header {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    nav {
+        position: absolute;
+        left: -500px;
+        top: 0;
+        z-index: 999;
+        width: 330px;
+        height: 85vh;
+        background: #2e2e2e;
+        transition: 0.3s ease;
+        box-shadow: 2px 0 2px 0 #000000;
+    }
+
+    #nav-check:checked~nav {
+        left: 0;
+    }
+
+    nav .logo {
+        display: block;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    nav ul li a {
+        margin-bottom: 15px;
+        padding: 10px 15px;
+    }
+
+    nav ul {
+        display: block;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width:700PX) {
+
+    section{
+        padding: 100px 10px;
+    }
+    .a2{
+        text-align: center;
+        margin: 10px 0px ;
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:400px) {
+
+
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    footer h1 {
+        font-size: 17px;
+        padding-bottom: 15px;
+    }
+  
+
+
+}
