@@ -186,7 +186,7 @@ footer div a:hover {
 
     nav {
         position: absolute;
-        left: -500px;
+        right: -500px;
         top: 0;
         z-index: 999;
         width: 330px;
@@ -197,7 +197,7 @@ footer div a:hover {
     }
 
     #nav-check:checked~nav {
-        left: 0;
+        right: 0;
     }
 
     nav .logo {
